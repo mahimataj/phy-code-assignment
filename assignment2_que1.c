@@ -17,13 +17,10 @@ int main()
 
     printf("Enter angle θ (in degrees): ");
     scanf("%lf",&theta);
-
     d = d * 1000;
     double theta_rad=theta*(3.14159 / 180.0);
 
     m=(d*sin(theta_rad))/lambda;
-
     printf("%.2lf-th order maxima\n",m);
-
     return 0;
 }
